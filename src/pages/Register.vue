@@ -34,8 +34,8 @@ async function register() {
 </script>
 
 <template>
-  <div class="container">
-    <div class="row justify-content-center align-items-center vh-100">
+  <div class="container flex-grow-1 d-flex align-items-center">
+    <div class="row justify-content-center w-100">
       <div class="col-md-7 col-lg-5">
         <div class="card auth-card">
           <div class="card-body p-4 p-md-5">

@@ -48,7 +48,7 @@ watch(
 <template>
   <div class="app-shell min-vh-100 d-flex flex-column">
     <Navbar />
-    <main class="flex-grow-1 py-4">
+    <main class="flex-grow-1 py-4 d-flex flex-column">
       <RouterView />
     </main>
     <Footer />
