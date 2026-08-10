@@ -6,10 +6,10 @@ const router = createRouter({
   routes: [
     {
       path: '/',
-      redirect: '/workouts-page',
+      redirect: '/workouts',
     },
     {
-      path: '/workouts-page',
+      path: '/workouts',
       name: 'Workouts',
       component: () => import('../pages/UserWorkouts.vue'),
       meta: { requiresAuth: true },
